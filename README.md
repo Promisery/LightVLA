@@ -6,7 +6,7 @@
 
 ## 📝 Abstract
 
-**LightVLA** is an innovative, simple yet effective differentiable token pruning framework designed for **Vision-Language-Action (VLA)** models. While VLA models have demonstrated impressive capabilities in executing real-world robotic tasks, their deployment on resource-constrained platforms is often bottlenecked by the heavy attention-based computation over large sets of visual tokens. LightVLA addresses this challenge through **adaptive, performance-driven visual token pruning**: it generates dynamic queries to evaluate the importance of visual tokens and employs Gumbel softmax for differentiable token selection. Through fine-tuning, LightVLA learns to retain the most informative visual tokens while pruning those that do not contribute to task execution, thereby **simultaneously improving efficiency and performance**. Notably, LightVLA requires no heuristic magic numbers and introduces no additional trainable parameters, making it compatible with modern inference frameworks. Experimental results show that LightVLA outperforms various VLA models and existing token pruning methods across diverse tasks on the LIBERO benchmark, achieving higher success rates with significantly reduced computational overhead. Specifically, LightVLA reduces FLOPs and latency by 59.1% and 38.2% respectively, with a 2.6% improvement in task success rate [1].
+**LightVLA** is an innovative, simple yet effective differentiable token pruning framework designed for **Vision-Language-Action (VLA)** models. While VLA models have demonstrated impressive capabilities in executing real-world robotic tasks, their deployment on resource-constrained platforms is often bottlenecked by the heavy attention-based computation over large sets of visual tokens. LightVLA addresses this challenge through **adaptive, performance-driven visual token pruning**: it generates dynamic queries to evaluate the importance of visual tokens and employs Gumbel softmax for differentiable token selection. Through fine-tuning, LightVLA learns to retain the most informative visual tokens while pruning those that do not contribute to task execution, thereby **simultaneously improving efficiency and performance**. Notably, LightVLA requires no heuristic magic numbers and introduces no additional trainable parameters, making it compatible with modern inference frameworks. Experimental results show that LightVLA outperforms various VLA models and existing token pruning methods across diverse tasks on the LIBERO benchmark, achieving higher success rates with significantly reduced computational overhead. Specifically, LightVLA reduces FLOPs and latency by 59.1% and 38.2% respectively, with a 2.6% improvement in task success rate.
 
 ## 🔗 Project Links
 
@@ -80,8 +80,3 @@ This project is licensed under the [MIT License](LICENSE). Please see the `LICEN
 ## Acknowledgements
 
 This work is built upon the wonderful [OpenVLA-OFT](https://openaivla.github.io/openvla-oft/) project. Special thanks to Moo Jin Kim, Chelsea Finn, and Percy Liang for their contributions.
-
-## References
-
-[1] Jiang, T., Jiang, X., Ma, Y., Wen, X., Li, B., Zhan, K., Jia, P., Liu, Y., Sun, S., & Lang, X. (2025). *The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning*. arXiv preprint arXiv:2509.12594. [https://arxiv.org/abs/2509.12594](https://arxiv.org/abs/2509.12594)
-
