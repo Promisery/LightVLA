@@ -14,6 +14,7 @@
 *   **Paper (arXiv):** [https://arxiv.org/abs/2509.12594](https://arxiv.org/abs/2509.12594)
 *   **Example Video:** [https://cloud.tsinghua.edu.cn/f/1e3f4ab2bd7345768a6e/](https://cloud.tsinghua.edu.cn/f/1e3f4ab2bd7345768a6e/)
 *   **Code (GitHub):** [https://github.com/LiAutoAD/LightVLA](https://github.com/LiAutoAD/LightVLA)
+*   **Checkpoints (HuggingFace):** [https://huggingface.co/TTJiang/models?search=lightvla](https://huggingface.co/TTJiang/models?search=lightvla)
 
 ## 💡 Key Features & Approach
 
