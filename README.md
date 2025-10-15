@@ -44,7 +44,7 @@ These results highlight LightVLA's powerful ability to enhance the efficiency of
 
 ### Training
 
-*   Between 1-8 GPUs with 27-80 GB, depending on the desired training setup (with default bfloat16 data type). See the [OpenVLA-OFT FAQ](https://openaivla.github.io/openvla-oft/faq.html) for details.
+*   Between 1-8 GPUs with 27-80 GB, depending on the desired training setup (with default bfloat16 data type). See the [OpenVLA-OFT FAQ](https://openvla-oft.github.io/) for details.
 
 ## ⬇️ Installation
 
@@ -80,4 +80,4 @@ This project is licensed under the [MIT License](LICENSE). Please see the `LICEN
 
 ## Acknowledgements
 
-This work is built upon the wonderful [OpenVLA-OFT](https://openaivla.github.io/openvla-oft/) project. Special thanks to Moo Jin Kim, Chelsea Finn, and Percy Liang for their contributions.
+This work is built upon the wonderful [OpenVLA-OFT](https://openvla-oft.github.io/) project. Special thanks to Moo Jin Kim, Chelsea Finn, and Percy Liang for their contributions.
