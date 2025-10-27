@@ -16,6 +16,10 @@
 *   **Code (GitHub):** [https://github.com/LiAutoAD/LightVLA](https://github.com/LiAutoAD/LightVLA)
 *   **Checkpoints (HuggingFace):** [https://huggingface.co/TTJiang/models?search=lightvla](https://huggingface.co/TTJiang/models?search=lightvla)
 
+## TL;DR
+
+The core implementation of LightVLA is [here](https://github.com/Promisery/LightVLA/blob/main/prismatic/extern/hf/modeling_prismatic.py#L49).
+
 ## 💡 Key Features & Approach
 
 LightVLA's core lies in its unique adaptive pruning mechanism, aimed at optimizing the efficiency and performance of VLA models:
