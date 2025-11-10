@@ -86,10 +86,7 @@ class TokenPruner(nn.Module):
         batch_indices = torch.arange(bsz, device=score.device).unsqueeze(1).expand_as(indices)
 
         mask[batch_indices, indices] = True
-
-        rand_mask = torch.rand(bsz, self.num_patches, device=score.device) > 0.9
-        mask[rand_mask] = False
-
+        
         return mask
 
     def score_to_indices(self, score, patches):
