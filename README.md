@@ -20,7 +20,7 @@
 
 ## TL;DR
 
-The core implementation of LightVLA is [here](https://github.com/Promisery/LightVLA/blob/main/prismatic/extern/hf/modeling_prismatic.py#L49).
+The core implementation of LightVLA is [here](https://github.com/LiAutoAD/LightVLA/blob/main/prismatic/extern/hf/modeling_prismatic.py#L49).
 
 ## 💡 Key Features & Approach
 
